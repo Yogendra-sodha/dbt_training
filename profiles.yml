@@ -1,0 +1,26 @@
+dbt_training:
+  outputs:
+    dev:
+      account: GKRINGV-YJC12862
+      database: analytics_dev
+      password: "gLytiMKXxvCX37q"
+      role: developer
+      schema: dbt_ys
+      threads: 1
+      type: snowflake
+      user: ysodha
+      warehouse: compute_wh
+  target: dev
+dbtlearn:
+  outputs:
+    dev:
+      account: VINYEYN-FX76777
+      database: AIRBNB
+      password: dbtPassword123
+      role: transform
+      schema: DEV
+      threads: 1
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
