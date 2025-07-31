@@ -1,0 +1,1 @@
+SELECT * FROM raw.payment_app.transactions
