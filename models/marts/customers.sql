@@ -58,4 +58,4 @@ final as (
         on customers.main_employee_id = employees.employee_id
 )
 
-select * from final
+select * from final;
